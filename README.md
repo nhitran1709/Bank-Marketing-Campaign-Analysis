@@ -58,17 +58,88 @@ During this stage, I performed several SQL cleaning steps to ensure data quality
 In this project, I will write 08 queries in BigQuery based on the Kaggle dataset.
 
 ### Query 01: Calculate total of customers, average balance, default rate and deposit rate
-SQL code
+- SQL code
+<img width="778" height="130" alt="Image" src="https://github.com/user-attachments/assets/aed3b5c4-6e29-463f-9f24-9e587eceed68" />
 
-Query results
+- Query results
+<img width="558" height="51" alt="Image" src="https://github.com/user-attachments/assets/1d184b11-db72-407a-a21a-8493a1f40f65" />
 
 ### Query 02: Calculate average balance on each deposit status
-SQL code
+- SQL code
+<img width="567" height="129" alt="Image" src="https://github.com/user-attachments/assets/addba27f-1cff-4d0b-9f42-fb5e02e64b45" />
 
-Query results
+- Query results
+<img width="279" height="82" alt="Image" src="https://github.com/user-attachments/assets/423fb5c0-dd51-4b2c-a9a6-50e38b665ae9" />
 
+### Query 03: Divide balance into 6 groups and calculate total customers, total customers of having deposit and percentage of total customers of having deposit on total customers of dataset
+- SQL code
+<img width="715" height="418" alt="Image" src="https://github.com/user-attachments/assets/374034fd-8b94-4559-97a6-48986821e43a" />
 
+- Query results
+<img width="634" height="188" alt="Image" src="https://github.com/user-attachments/assets/6d7bc341-d69e-483f-86cf-deaea5a18347" />
 
+### Query 04: Calculate average balance based on every job titles, following by total customers having loan and housing debts
+- SQL code
+<img width="583" height="165" alt="Image" src="https://github.com/user-attachments/assets/ff712e86-2212-4d73-9275-c5e908ad1aa1" />
+
+- Query results
+<img width="633" height="352" alt="Image" src="https://github.com/user-attachments/assets/8f47ffef-b851-4341-9ec9-4ad4c4ccddfd" />
+
+### Query 05: Calculate total customers of having deposit and percentage of total customers of having deposit on total customers of dataset based on job titles
+- SQL code
+<img width="693" height="301" alt="Image" src="https://github.com/user-attachments/assets/d99ed0ee-1bf6-4f13-8fa0-051ac9b41860" />
+
+- Query results
+<img width="686" height="352" alt="Image" src="https://github.com/user-attachments/assets/fe5d1eb2-4e2f-4189-9378-09f6657555c3" />
+
+### Query 06: Divide age into 3 groups and calculate total customers, total customers of having deposit and percentage of total customers of having deposit on total customers of dataset
+- SQL code
+<img width="673" height="225" alt="Image" src="https://github.com/user-attachments/assets/a7bf2fe1-8bc4-4995-b582-bebe8db83676" />
+
+- Query results
+<img width="635" height="111" alt="Image" src="https://github.com/user-attachments/assets/0d5ee908-ef6c-4dc5-b694-1e23ebbf2b63" />
+
+### Query 07: Calculate total customers, total customer having deposit and proportion of them on each marital status
+- SQL code
+<img width="690" height="149" alt="Image" src="https://github.com/user-attachments/assets/2927daf9-b8e2-4d4c-a00f-15369fef30f6" />
+
+- Query results
+<img width="633" height="111" alt="Image" src="https://github.com/user-attachments/assets/a5133421-9589-448b-8dd5-d62fece2f547" />
+
+### Query 08: Calculate success calling rate by month
+- SQL code
+<img width="701" height="177" alt="Image" src="https://github.com/user-attachments/assets/07ce796d-b094-4fdc-8df9-afffaaa1138b" />
+
+- Query results
+<img width="634" height="165" alt="Image" src="https://github.com/user-attachments/assets/50f2bd5b-cddd-46a4-81ef-9974ff231069" />
+
+## V. Business Insights
+- *Retired, self_employed* customers have the *highest average balance* (≈2417, ≈1865 respectively) but a moderate deposit rate (4.62%, 1.68% respectively).
+  
+- Although students have the smallest customer count, their deposit rate (2.41%) relative to base size is promising — when combined with the *Under 30 age group*, which has the *highest deposit* rate (59.83%), it shows strong potential for future long-term customers.
+  
+- The largest customer segment falls within the *0–20K balance range*, accounting for *over 80%* of total customers (9,643 out of 11,162).
+  
+- The 30–50 age group forms the majority (7140 customers) but has the lowest deposit rate (42.69%) => This indicates a key segment that should be re-targeted with tailored offers or incentives.
+  
+- *Blue-collar, technician, and admin* roles show high housing loan counts, yet lower average balances, implying a strong loan dependency — these customers may prioritize debt repayment over deposits.
+
+## VI. Recommendations
+- Target Retired and Over-50 Customers for Premium Deposits
+  - Develop specialized “Retirement Savings” or “Wealth Stability” deposit products, leveraging their high balances and financial maturity.
+  - Use personalized advisory services to convert savings into deposits.
+    
+- Engage the 30–50 Segment with Mid-term Incentives
+  - Offer flexible-term deposits or interest bonuses tied to account tenure to re-engage this large but passive group.
+  - Use cross-selling (insurance, investment funds) to strengthen their long-term commitment.
+    
+- Educate and Nurture Blue-Collar and Technician Segments
+  - Launch financial literacy campaigns to increase awareness of deposit benefits.
+  - Introduce micro-deposit options or salary-linked savings programs with automatic transfers.
+
+- Capture Young Customer Loyalty Early
+  - Design student and young professional deposit accounts with low barriers, gamified savings, and mobile-first onboarding.
+  - Encourage early deposit behavior to build long-term brand loyalty.
 
 
 
