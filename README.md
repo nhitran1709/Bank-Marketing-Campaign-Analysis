@@ -30,7 +30,23 @@ The goal is to identify what factors influence a customer’s decision to open a
 ## III. Data Cleaning (SQL)
 During this stage, I performed several SQL cleaning steps to ensure data quality and consistency.
 
+- Query code
+
 <img width="491" height="54" alt="Image" src="https://github.com/user-attachments/assets/266f2e15-bd7b-443c-989c-fa168fe67b11" />
+
+- Query results
+
+<img width="1194" height="297" alt="Image" src="https://github.com/user-attachments/assets/99edeb98-cc02-43ca-8409-3ac86febfefb" />
+
+
+- Query code
+
+<img width="484" height="39" alt="Image" src="https://github.com/user-attachments/assets/a8b664f2-6d11-430e-b531-d47f7be8f147" />
+
+- Query results
+
+<img width="184" height="54" alt="Image" src="https://github.com/user-attachments/assets/8d8e2aa8-aebc-490a-97c1-d4b5f9af784f" />
+
 
 ## IV. Exploratory Data Analysis (EDA)
 In this project, I will write 08 queries in BigQuery based on the Kaggle dataset.
