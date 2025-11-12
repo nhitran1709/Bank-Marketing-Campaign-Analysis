@@ -111,7 +111,7 @@ In this project, I will write 08 queries in BigQuery based on the Kaggle dataset
 <img width="701" height="177" alt="Image" src="https://github.com/user-attachments/assets/07ce796d-b094-4fdc-8df9-afffaaa1138b" />
 
 - Query results
-<img width="634" height="165" alt="Image" src="https://github.com/user-attachments/assets/50f2bd5b-cddd-46a4-81ef-9974ff231069" />
+<img width="634" height="356" alt="Image" src="https://github.com/user-attachments/assets/9e0d45ce-4687-4d73-9ebf-3df27b43a3ef" />
 
 ## V. Business Insights
 - *Retired, self_employed* customers have the *highest average balance* (≈2417, ≈1865 respectively) but a moderate deposit rate (4.62%, 1.68% respectively).
